@@ -2,27 +2,27 @@ class Dai < Formula
   desc "AI-backed dependency upgrade advisor for package.json projects"
   homepage "https://github.com/HibiZA/Dai"
   license "MIT"
-  version "0.1.2"
+  version "0.1.3"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/darwin_arm64.tar.gz"
-      sha256 "e96b40a8feb68e53277c648a451c1445b61c30db0e5b46191d9168e18044a06b
-d15bcb9d4103e814dafb59dbb569f9dc4f31ee97df6855b7b2c590306a8e44da"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/darwin_arm64.tar.gz"
+      sha256 "2cd19b3287caf4a484c77b0ebbe2797112d08f7453ed0eca4a30005263c33e28
+6d21b27b37f5c828817a61b33f0393579c9dacc337b2ad979c6b7536c0bc261c"
     else
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/darwin_amd64.tar.gz"
-      sha256 "40ef9707af98a4c6a4c370b86eecef17565e6a3b246fcae11e94e8b6dc5891a6
-b1492964f7af755547ba561eb6d06fae789d26b61f7948e063ddee64b155a84c"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/darwin_amd64.tar.gz"
+      sha256 "b45038d4682bb49d8dafb686f75466a2241dbe434dc233ce50555a92bd324723
+e42d300e08372b6b8d9afe59e1d5edc96972499934751f79ba0ccf2300f595e0"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/linux_amd64.tar.gz"
-      sha256 "2a5da8eb6239c6042d2dd72dffb47f7edf7ee43a9d8ac3c6663c94ab00fc1043
-e23f7c458fc78fcce3d48690d189dd4cfe228679e9fb8101cbd529414f05920e"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/linux_amd64.tar.gz"
+      sha256 "dd27dd46cf37ba2c47f35353751f371b8d187a02cae2fd35d72b688b59e4ec20
+fe6a041a4414fda4731960080f0bf0e8cdb25b21d0b4c7b222ad2f0e6486ba24"
     else
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/linux_arm64.tar.gz"
-      sha256 "86a43dafbbd3956c9ba5b938cf27d975d3992ca4c9f3dfc3e257c8d2c9e88f61
-55fbb3f562689bd9fee62a0c75edff8b2d57648f7316940a20cdb9068849be64"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/linux_arm64.tar.gz"
+      sha256 "0e3668a7951ec349c8727b91c744cca8bd58c289f1356a24a7b058665b23f0a1
+3224f5010d6f51f786037d6124d6a6e3c15511b5676989b90abfc01b17d5a4e6"
     end
   end
 
