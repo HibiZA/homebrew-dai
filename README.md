@@ -6,7 +6,7 @@ This repository contains Homebrew formulae for [Dai CLI](https://github.com/Hibi
 
 ```bash
 # Tap the repository
-brew tap HibiZA/dai
+brew tap HibiZA/dai/dai-cli
 
 # Install Dai CLI
 brew install dai
