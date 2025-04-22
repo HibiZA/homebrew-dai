@@ -2,23 +2,23 @@ class DaiCli < Formula
   desc "AI-backed dependency upgrade advisor for package.json projects"
   homepage "https://github.com/HibiZA/Dai"
   license "MIT"
-  version "0.1.2"
+  version "0.1.3"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/darwin_arm64.tar.gz"
-      sha256 "6e6b5b1a615e79008edeb44e9698b26a496b17b470ed19f7d5c4c6f87f366a3a"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/darwin_arm64.tar.gz"
+      sha256 "77d07be95c4acfa9b28a66c14510e865903c4fb5fdcba90b24d1bc1d26f55c00"
     else
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/darwin_amd64.tar.gz"
-      sha256 "f7d4228c76ead5083fb6d8764c8b0b4aa876f61e1c5734505f2ae8a5b0ad788e"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/darwin_amd64.tar.gz"
+      sha256 "fb296de4f39639a7ac5206f5bceeffe853b4e2ad30ea94244476b72679ab204a"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/linux_amd64.tar.gz"
-      sha256 "4f0db739da64a727770218a7e9253c761d43809887c3f96006d69c9d530aa011"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/linux_amd64.tar.gz"
+      sha256 "3ad54b2157d1b2e707482e3e0f3911a225f4cdaa8be743996362c923cb3ec444"
     else
-      url "https://github.com/HibiZA/Dai/releases/download/v0.1.2/linux_arm64.tar.gz"
-      sha256 "9e73371f2b3a7c35dc962dc048c5c09f9d64c0c3b1d66245743bab5a88e7f18b"
+      url "https://github.com/HibiZA/Dai/releases/download/v0.1.3/linux_arm64.tar.gz"
+      sha256 "660f94bf571b4ed7d67dacdf3b7ebc713d618ae09875eae9438b9f9e2b82cacf"
     end
   end
 
